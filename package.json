@@ -1,0 +1,19 @@
+{
+  "name": "lapinskiteam",
+  "version": "1.0.0",
+  "description": "Webpage for the lapinski team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lilkgb/Lapinski.git"
+  },
+  "author": "Ryan McLean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lilkgb/Lapinski/issues"
+  },
+  "homepage": "https://github.com/Lilkgb/Lapinski#readme"
+}
