@@ -1,3 +1,5 @@
+@import 'keyframes.scss';
+
 body {
   background-color: lightgray;
   display: grid;
@@ -14,6 +16,9 @@ body {
     height: 60px;
     align-self: center;
     margin-left: 10px;
+    &:hover {
+      animation: heartBeat 2s infinite;
+    }
   }
 }
 .family {
