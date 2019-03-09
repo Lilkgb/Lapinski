@@ -1,12 +1,12 @@
 {
-  "name": "lapinskiteam",
+  "name": "Lapinskiteam",
   "version": "1.0.0",
   "description": "Webpage for the lapinski team",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build & webpack-dev-server --open --mode development",
-    "probuild": "webpack --config webpack.production.config.js"
+    "probuild": "webpack --mode production"
   },
   "keywords": [],
   "author": "Ryan McLean",
