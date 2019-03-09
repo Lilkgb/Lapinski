@@ -1,4 +1,21 @@
 body {
-  background-color: skyblue;
+  background-color: lightgray;
   display: grid;
+  margin: 0;
+  grid-gap: 20px;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: 62px;
+  border-bottom: 1px solid black;
+  .headerimg {
+    width: auto;
+    height: 60px;
+    align-self: center;
+    margin-left: 10px;
+  }
+}
+.family {
+  width: 100%;
 }
